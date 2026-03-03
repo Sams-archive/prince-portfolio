@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366F1;   /* Modern Indigo (matches the image's vibe) */
+  --color-secondary: #0F172A; /* Slate 900 for headings */
+  --color-accent: #64748B;    /* Slate 500 for bio text */
+  --font-mclaren: "McLaren", cursive;
+}
+html {
+  scroll-behavior: smooth; 
+}
