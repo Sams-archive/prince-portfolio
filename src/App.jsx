@@ -19,7 +19,8 @@ function App() {
       <Certifications />
       <Skills />
       <Experience />
-      <ResumeCTA/>
+       <ResumeCTA/>
+     
       <Footer />
     </>
   );
