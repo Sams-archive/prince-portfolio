@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import FeaturedProject from "./pages/FeatureProject";
+import ResumeCTA from "./components/Resume";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Certifications />
       <Skills />
       <Experience />
+      <ResumeCTA/>
       <Footer />
     </>
   );

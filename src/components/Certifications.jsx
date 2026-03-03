@@ -7,6 +7,8 @@ const certs = [
   "COSHH Risk Assessor",
   "IWCF Level 1",
   "HSE Induction Training",
+  "B.Tech in Petroleum Engineering (CGPA: 4.01/5.00)",
+  "Diploma in Occupational Safety and Health (DOSH) - Ongoing",
 ];
 
 function Certifications() {

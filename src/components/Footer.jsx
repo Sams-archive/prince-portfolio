@@ -43,6 +43,12 @@ function Footer() {
               Navigation
             </p>
             <nav className="flex flex-col gap-3">
+             <a
+                href="/"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Back to Top
+              </a>
               <a
                 href="#home"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -85,7 +91,7 @@ function Footer() {
                 LinkedIn
               </a>
               <a
-               href="https://wa.me/2349064486980?text=Hello%20Prince,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20safety%20engineering%20opportunity."
+                href="https://wa.me/2349064486980?text=Hello%20Prince,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20safety%20engineering%20opportunity."
                 target="_blank"
                 rel="noreferrer"
                 className="block text-2xl font-bold hover:text-primary transition-colors"
