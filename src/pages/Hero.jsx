@@ -83,10 +83,23 @@ function Hero() {
             transition={{ delay: 1.2, duration: 0.5 }}
             className="mt-10 flex flex-col sm:flex-row gap-4"
           >
-            <button onClick={() => window.open("mailto:princeanucha2015@gmail.com", "_blank")} className="text-primary px-6 py-4 bg-white border font-bold border-gray-200 rounded-lg w-full sm:w-auto hover:bg-primary hover:text-white transition-all transform hover:scale-105">
+            <button
+              onClick={() =>
+                window.open("mailto:princeanucha2015@gmail.com", "_blank")
+              }
+              className="text-primary px-6 py-4 bg-white border font-bold border-gray-200 rounded-lg w-full sm:w-auto hover:bg-primary hover:text-white transition-all transform hover:scale-105"
+            >
               Send a Mail
             </button>
-            <button onClick={() => window.open("https://www.linkedin.com/in/prince-anucha", "_blank")} className="bg-primary text-white px-8 py-4 rounded-lg font-bold w-full sm:w-auto hover:bg-white hover:text-primary border border-transparent hover:border-primary transition-all transform hover:scale-105">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/prince-anucha-b2a147206/",
+                  "_blank",
+                )
+              }
+              className="bg-primary text-white px-8 py-4 rounded-lg font-bold w-full sm:w-auto hover:bg-white hover:text-primary border border-transparent hover:border-primary transition-all transform hover:scale-105"
+            >
               Connect With Me
             </button>
           </motion.div>
