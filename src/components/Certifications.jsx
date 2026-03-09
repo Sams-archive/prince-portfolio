@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import COSHH1 from "../assets/COSHH1.png";
 import Firewarden from "../assets/Firewarden.png";
-import HSEInduction from "../assets/HSEInduction.png";
+import HSEInduction from "../assets/HSEinduction.png";
 import ISPON from "../assets/ISPON.png";
 import IWFL1 from "../assets/IWFL1.png";
 import IWFL2 from "../assets/IWFL2.png";
