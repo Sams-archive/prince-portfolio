@@ -17,10 +17,11 @@ function App() {
       <About />
       <FeaturedProject />
       <Certifications />
+
       <Skills />
       <Experience />
-       <ResumeCTA/>
-     
+      <ResumeCTA />
+
       <Footer />
     </>
   );

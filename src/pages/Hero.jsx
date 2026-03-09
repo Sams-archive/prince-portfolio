@@ -112,7 +112,7 @@ function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative order-2 md:order-2 px-4 md:px-0"
         >
-          <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-gray-200 shadow-xl">
+          <div className="aspect-4/5 overflow-hidden rounded-2xl bg-gray-200 shadow-xl">
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4 }}
